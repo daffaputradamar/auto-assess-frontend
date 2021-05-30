@@ -10,7 +10,7 @@ function TableSampleItem({ table, data }) {
 
     return (
         <div>
-            <Button color="info" outline onClick={toggle} style={{ marginBottom: '1rem' }}>Table {table}</Button>
+            <Button color="info" outline onClick={toggle} style={{ marginBottom: '1rem' }}>{table}</Button>
             <Collapse isOpen={isOpen}>
                 <Table size="sm">
                     <thead>

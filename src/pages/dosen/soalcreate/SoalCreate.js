@@ -197,7 +197,7 @@ function SoalCreate() {
 
     return (
         <Container>
-            <h4 className="mb-4">Kelas</h4>
+            <h4 className="mb-4">Soal</h4>
             <div className="text-right">
                 <Button color="info" outline onClick={e => setIsFormShown(!isFormShown)} className="mb-4">Tambah Soal</Button>
             </div>
